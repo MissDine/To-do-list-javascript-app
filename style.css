@@ -113,3 +113,21 @@ button:hover{
 button:active{
     color: green;
 }
+.edit{
+    color: white;
+}
+.delete{
+    color: white;
+}
+.edit:hover{
+    color: green;
+}
+.edit:active{
+    color: yellow;
+}
+.delete:hover{
+    color: green;
+}
+.delete:actve{
+    color: yellow;
+}
