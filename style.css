@@ -54,11 +54,11 @@ input, button{
     cursor: pointer;
     transition: 0.4s;
 }
-#new-task-submit::hover{
-    opacity: 0.8;
+#new-task-submit:hover{
+    color: green;
 }
 #new-task-submit:active{
-    color: rgb(192, 180, 46);
+    color: green;
 }
 main{
     flex: 1 1 0%;
@@ -106,4 +106,10 @@ button{
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.5s;
+}
+button:hover{
+    color: green;
+}
+button:active{
+    color: green;
 }
