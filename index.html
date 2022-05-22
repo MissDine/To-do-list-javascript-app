@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-D0-List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Task list 2022</h1>
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="What do you plan to do?">
+            <input type="Submit" id="new-task-submit" value="Add task">
+        </form>
+    </header>
+    <main>
+        <section id="task-list">Tasks</section>
+        <div id ="tasks">
+            <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="">
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
